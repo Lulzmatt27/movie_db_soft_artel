@@ -14,6 +14,9 @@
 ## Функционал который не удалось реализовать
 - Добавить в избранное и получить информацию (нет доступа с api_key)
 
+![alt text](https://github.com/Lulzmatt27/movie_db_soft_artel/test_images/movies.png)
+![alt text](https://github.com/Lulzmatt27/movie_db_soft_artel/test_images/movie_screen.png)
+
 ### `yarn start`
 
 Runs the app in the development mode.\
