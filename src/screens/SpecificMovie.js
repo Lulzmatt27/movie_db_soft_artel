@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Row, Col, ListGroup, Image, Button } from 'react-bootstrap'
+import { Row, Col, ListGroup, Image, Button, Card } from 'react-bootstrap'
 import Loader from '../components/Loader'
 import Favorite from '../components/Favorite'
 import {
@@ -90,6 +90,10 @@ const SpecificMovie = ({ match }) => {
               </p>
             </ListGroup.Item>
           </ListGroup>
+          <Card className='my-3 p-3 rounded movie-card'>
+            <Card.Title>Описание:</Card.Title>
+            <Card.Text>{movie.overview}</Card.Text>
+          </Card>
         </Col>
         <Col md={4}>
           <Image src={imageUrl} alt={movie.title} fluid />
