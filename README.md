@@ -14,8 +14,8 @@
 ## Функционал который не удалось реализовать
 - Добавить в избранное и получить информацию (нет доступа с api_key)
 
-![alt text](https://github.com/Lulzmatt27/movie_db_soft_artel/test_images/movies.png)
-![alt text](https://github.com/Lulzmatt27/movie_db_soft_artel/blob/test_images/movie_screen.png?raw=true)
+![](test_images/movies.png)
+![](test_images/movie_screen.png)
 
 ### `yarn`
 Установка всех зависимостей проекта
